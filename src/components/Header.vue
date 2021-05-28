@@ -8,6 +8,7 @@
                 <ul class="uk-navbar-nav">
                     <li><router-link to="/">HOME</router-link></li>
                     <li><router-link to="/feed">FEED</router-link></li>
+                    <li><router-link to="/bbs">BOARD</router-link></li>
                     <li v-if="isAuthenticated2"><a href="#" @click="onClickLogout">LOGOUT</a></li>
                     <li v-else><router-link to="/login">LOGIN</router-link></li>
                     <li ><router-link to="/join">JOIN</router-link></li>

@@ -11,6 +11,11 @@ import JoinSuccess from '@/pages/JoinSuccess'
 import FeedPage from '@/pages/Feed'
 import PostPage from '@/pages/Post'
 
+// Board page
+import BoardList from '@/pages/bbs/Board_list'
+import BoardView from '@/pages/bbs/Board_view'
+import BoardWrite from '@/pages/bbs/Board_write'
+
 Vue.use(Router)
 
 export default new Router({
@@ -55,6 +60,22 @@ export default new Router({
       path: '/joinsuccess',
       name: 'JoinSuccess',
       component: JoinSuccess
-    }
+    },
+    // board
+    {
+      path: '/bbs',
+      name: 'BoardList',
+      component: BoardList
+    },
+    {
+      path: '/bbs/:id',
+      name: 'BoardView',
+      component: BoardView
+    },
+    {
+      path: '/bbs_write',
+      name: 'BoardWrite',
+      component: BoardWrite
+    },
   ]
 })

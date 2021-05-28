@@ -13,8 +13,8 @@
                 <div class="uk-card-media-left uk-cover-container">
                    
                     <div uk-lightbox>
-                        <a v-bind:href="item.img[0].files_url">
-                        <img v-bind:src="item.img[0].files_url" class="contents-img" alt="">
+                        <a v-bind:href="item.img.files_url">
+                        <img v-bind:src="item.img.files_url" class="contents-img" alt="">
                         
                         </a>
                     </div>
