@@ -16,7 +16,7 @@
             </thead>
             <tbody v-for="(item, index) in posts" v-bind:key="item.id">
                 <tr>
-                    <td>1</td>
+                    <td>{{ item.po_no }}</td>
                     <td> <router-link :to="{name:'BoardView', params:{id: item.po_no}}">{{ item.po_subject }}</router-link></td>
                     <td>{{ item.mb_id }}</td>
                     <td>{{ item.cnt_like }}</td>
