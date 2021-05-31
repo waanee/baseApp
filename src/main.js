@@ -24,7 +24,7 @@ Vue.config.productionTip = false
 
 // 서버통신을 위한 axios 기본설정.
 const http = axios.create({
-  baseURL: 'https://dev1.waanee.com/api/index.php/api', // API URL에 맞게 주소세팅.
+  baseURL: 'https://dev1.waanee.com/index.php/api', // API URL에 맞게 주소세팅.
   timeout: 1000,
   headers: {
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
