@@ -26,8 +26,6 @@
             </tbody>
         </table>
 
-        <router-link to="/bbs/11">본문</router-link>
-
         <router-link to="/bbs_write">글쓰기</router-link>
     </div>
 </template>
