@@ -16,6 +16,9 @@ import BoardList from '@/pages/bbs/Board_list'
 import BoardView from '@/pages/bbs/Board_view'
 import BoardWrite from '@/pages/bbs/Board_write'
 
+// kakaoMap 
+import MapPage from '@/pages/Map'
+
 Vue.use(Router)
 
 export default new Router({
@@ -77,5 +80,11 @@ export default new Router({
       name: 'BoardWrite',
       component: BoardWrite
     },
+    // map
+    {
+      path: '/map',
+      name: 'MapPage',
+      component: MapPage
+    }
   ]
 })
